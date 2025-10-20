@@ -6,7 +6,6 @@ public class MainApp {
         machines[0] = new Truck();
         machines[1] = new Excavator();
         machines[2] = new Bulldozer();
-
         for(int i = 0; i < machines.length; i++){
             machines[i].doWork();
             machines[i].stopWork();
